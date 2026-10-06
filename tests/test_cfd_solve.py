@@ -1277,6 +1277,7 @@ def test_interp_read_failure_falls_back_to_hybrid_and_records_reason(tmp_path):
 
 
 def test_walls_export_includes_zone_name_for_each_face(tmp_path):
+    pytest.importorskip("ansys.fluent.core")
     session = SimpleNamespace(
         settings=SimpleNamespace(setup=SimpleNamespace(),
                                  solution=SimpleNamespace(

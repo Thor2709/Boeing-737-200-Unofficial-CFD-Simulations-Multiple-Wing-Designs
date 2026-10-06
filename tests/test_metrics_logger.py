@@ -6,6 +6,8 @@ import subprocess
 import sys
 import time
 import uuid
+
+import pytest
 from pathlib import Path
 
 from b737wing.tools import metrics_logger
@@ -132,6 +134,7 @@ def test_ram_access_denied_returns_empty_ram_values_and_continues(monkeypatch):
     assert csv_row["ram_pct"] == ""
 
 
+@pytest.mark.skipif(sys.platform != "win32", reason="PID-exit detection is exercised on Windows only")
 def test_pid_exit_stops_logger():
     output = OUTPUT_DIRECTORY / f".metrics_pid_{uuid.uuid4().hex}.csv"
     child = subprocess.Popen(
