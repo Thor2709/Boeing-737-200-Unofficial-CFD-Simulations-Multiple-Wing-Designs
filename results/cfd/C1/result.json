@@ -1,0 +1,165 @@
+{
+  "case": "C1",
+  "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C1\\prod\\mesh.msh.h5",
+  "cells": null,
+  "np": 4,
+  "alpha_deg": 5.1868550098947805,
+  "CL": 0.4874259390995346,
+  "CD": 0.05936791417775068,
+  "CM": -0.02152125291665258,
+  "CD_ex_duct": 0.05884985749985341,
+  "components": {
+    "wing": {
+      "CL": 0.3962483287225108,
+      "CD": 0.03160039629927811,
+      "CM": -0.0348769403268273
+    },
+    "fuselage": {
+      "CL": 0.06651314231696248,
+      "CD": 0.01380026486225262,
+      "CM": 0.09947761075147181
+    },
+    "htail": {
+      "CL": 0.01851323151394562,
+      "CD": 0.001802783370177438,
+      "CM": -0.06948278640972559
+    },
+    "vtail": {
+      "CL": 0.004254667903758651,
+      "CD": 0.002258869997112318,
+      "CM": -0.01575721287013727
+    },
+    "nacelle": {
+      "CL": 0.00133336611797819,
+      "CD": 0.008557071452695164,
+      "CM": -0.00321794081787321
+    },
+    "duct": {
+      "CL": 0.002570111584278644,
+      "CD": 0.0005180566778972714,
+      "CM": 0.00152331271555045
+    },
+    "fairing": {
+      "CL": -0.002006909059899694,
+      "CD": 0.0008304715183377739,
+      "CM": 0.0008127040408885483
+    }
+  },
+  "lift_half_N": 255805.9797371253,
+  "drag_half_N": 31156.87170700183,
+  "lift_N": 511611.9594742506,
+  "drag_N": 62313.74341400366,
+  "lift_lbf": 115014.9438865782,
+  "drag_lbf": 14008.686797488708,
+  "L_over_D": 8.21025878793982,
+  "L_over_D_ex_duct": 8.238861538729534,
+  "iterations": 1000,
+  "wall_time_s": 2983.823,
+  "s_per_iter": 2.9838229999999997,
+  "status": "converged",
+  "converged": true,
+  "convergence_numbers": {
+    "cl_error": 0.002074060900465413,
+    "dcl_100": null,
+    "dcd_100": null,
+    "settle": {
+      "CL": {
+        "y_inf": 0.48752714912919776,
+        "remaining": 0.00010121002966317905,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CD": {
+        "y_inf": 0.05936753942832518,
+        "remaining": 3.747494255051942e-07,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CM": {
+        "y_inf": -0.021436035413470653,
+        "remaining": 8.52175031819287e-05,
+        "tau_iterations": 438.1153108580784,
+        "settled": true
+      },
+      "settled": true,
+      "iterations": 1000
+    },
+    "settle_on": "all",
+    "slope_replacements": [],
+    "mass_imbalance": 0.0071036552288508545,
+    "final_alpha_iterations": 1000
+  },
+  "ih_deg": 0.0,
+  "warm_start": null,
+  "solver": "cpu-db",
+  "precision": "double",
+  "solver_settings": "solver_settings.json",
+  "min_final_iterations": 900,
+  "final_iteration_rule": {
+    "window_iterations": 600,
+    "minimum_iterations": 900,
+    "tolerances": {
+      "CL": 0.0005,
+      "CD": 5e-05,
+      "CM": 0.001
+    }
+  },
+  "first_slope_cl_per_deg": 0.1,
+  "accel": [],
+  "courant_ramp": [
+    {
+      "through_iteration": 100,
+      "value": 2.0
+    },
+    {
+      "through_iteration": 300,
+      "value": 5.0
+    },
+    {
+      "through_iteration": 600,
+      "value": 10.0
+    },
+    {
+      "through_iteration": 6000,
+      "value": 20.0
+    }
+  ],
+  "courant_ramp_control": "driver",
+  "exports": {
+    "walls": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\runs\\C1\\iH0_final\\walls.csv",
+    "ensight": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\runs\\C1\\iH0_final\\ensight"
+  },
+  "export_status": "complete",
+  "close_clean": true,
+  "killed_pids": [],
+  "chain_provenance": {
+    "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C1\\prod\\mesh.msh.h5",
+    "case": "C1",
+    "alpha": {
+      "mode": "fixed",
+      "target_deg": 5.1868550098947805
+    },
+    "solver": "cpu-db",
+    "precision": "double",
+    "np": 4,
+    "min_final_iterations": 900,
+    "first_slope": null,
+    "courant_ramp": "100:2,300:5,600:10,6000:20",
+    "init_data": {
+      "path": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\runs\\C1\\iH0\\autosave-8-06500.dat.h5",
+      "files": [
+        {
+          "path": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\runs\\C1\\iH0\\autosave-8-06500.dat.h5",
+          "size": 120341240,
+          "mtime_ns": 1791227316995579700,
+          "sha256": "6583dc26dfb65ffb5f13a6965986e0f2e06b5324982eb4e90f232dd37aa52132"
+        }
+      ]
+    },
+    "interp_from": null,
+    "seed_from": null,
+    "accel": "",
+    "ih": null,
+    "convergence_policy_version": "2fe6697390d3d8d28fc8402584afd3a35f60f046c307c1df7308c6d3fd8b40f8"
+  }
+}

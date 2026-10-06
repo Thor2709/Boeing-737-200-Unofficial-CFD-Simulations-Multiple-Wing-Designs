@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b737wing"
+version = "0.1.0"
+description = "B737-200 Wing Aerodynamics Analysis Pipeline"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "pyvista",
+    "psutil",
+]
+
+[project.optional-dependencies]
+ansys = [
+    "ansys-fluent-core",
+    "ansys-geometry-core",
+]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "ansys: marks tests requiring Ansys Fluent or Geometry installation",
+]

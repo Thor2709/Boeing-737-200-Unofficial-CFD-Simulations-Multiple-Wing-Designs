@@ -1,0 +1,22 @@
+{
+  "gates": {
+    "gpu_within_gci": {
+      "verdict": "fail",
+      "reason": "decision gate gci_gate failed closed because producer step(s) failed, timed out, or were blocked: T2"
+    },
+    "gpu_batch": {
+      "verdict": "fail",
+      "reason": "decision gate gci_gate failed closed because producer step(s) failed, timed out, or were blocked: T2"
+    },
+    "cpu_warm": {
+      "verdict": "fail",
+      "reason": "decision gate gci_gate failed closed because producer step(s) failed, timed out, or were blocked: T2"
+    },
+    "cpu_cold": {
+      "verdict": "pass",
+      "reason": "GCI producer failed and warm_start gate fails"
+    }
+  },
+  "quantities": {},
+  "producer_failure": "decision gate gci_gate failed closed because producer step(s) failed, timed out, or were blocked: T2"
+}

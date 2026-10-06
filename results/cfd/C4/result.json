@@ -1,0 +1,161 @@
+{
+  "case": "C4",
+  "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C4\\prod\\mesh.msh.h5",
+  "cells": null,
+  "np": 4,
+  "alpha_deg": 3.3390343268364053,
+  "CL": 0.4896361155149747,
+  "CD": 0.04324786123241344,
+  "CM": -0.11913363207359,
+  "CD_ex_duct": 0.04291127421196387,
+  "components": {
+    "wing": {
+      "CL": 0.4186144753250629,
+      "CD": 0.02136725533214204,
+      "CM": -0.1231610220944213
+    },
+    "fuselage": {
+      "CL": 0.05901332072038315,
+      "CD": 0.01174991222738903,
+      "CM": 0.0598507071053682
+    },
+    "htail": {
+      "CL": 0.009690726436195757,
+      "CD": 0.0001822380232631706,
+      "CM": -0.03849314675643626
+    },
+    "vtail": {
+      "CL": 0.004390908898999895,
+      "CD": 0.002252379299725285,
+      "CM": -0.01583909544964743
+    },
+    "nacelle": {
+      "CL": -0.000443505521287947,
+      "CD": 0.006799058009438573,
+      "CM": -0.001934137082657543
+    },
+    "duct": {
+      "CL": 0.001564302245835534,
+      "CD": 0.0003365870204495744,
+      "CM": 0.0009502048369522245
+    },
+    "fairing": {
+      "CL": -0.003194112590214625,
+      "CD": 0.0005604313200057673,
+      "CM": -0.0005071426327478325
+    }
+  },
+  "lift_half_N": 256965.90229764394,
+  "drag_half_N": 22696.907625660097,
+  "lift_N": 513931.8045952879,
+  "drag_N": 45393.81525132019,
+  "lift_lbf": 115536.46581639361,
+  "drag_lbf": 10204.935629912812,
+  "L_over_D": 11.321626123513406,
+  "L_over_D_ex_duct": 11.373976238931222,
+  "iterations": 3950,
+  "wall_time_s": 13640.695,
+  "s_per_iter": 3.453340506329114,
+  "status": "converged",
+  "converged": true,
+  "convergence_numbers": {
+    "cl_error": 0.00013611551497472174,
+    "dcl_100": null,
+    "dcd_100": null,
+    "settle": {
+      "CL": {
+        "y_inf": 0.48933831540871847,
+        "remaining": 0.00029780010625624076,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CD": {
+        "y_inf": 0.043254107429051246,
+        "remaining": 6.24619663780468e-06,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CM": {
+        "y_inf": -0.1187197050457095,
+        "remaining": 0.00041392702788049796,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "settled": true,
+      "iterations": 900
+    },
+    "settle_on": "all",
+    "slope_replacements": [],
+    "mass_imbalance": 0.0016087733802703143,
+    "final_alpha_iterations": 900
+  },
+  "ih_deg": 0.0,
+  "warm_start": null,
+  "solver": "cpu-db",
+  "precision": "double",
+  "solver_settings": "solver_settings.json",
+  "min_final_iterations": 900,
+  "final_iteration_rule": {
+    "window_iterations": 600,
+    "minimum_iterations": 900,
+    "tolerances": {
+      "CL": 0.0005,
+      "CD": 5e-05,
+      "CM": 0.001
+    }
+  },
+  "first_slope_cl_per_deg": 0.079,
+  "accel": [],
+  "courant_ramp": [
+    {
+      "through_iteration": 100,
+      "value": 2.0
+    },
+    {
+      "through_iteration": 300,
+      "value": 5.0
+    },
+    {
+      "through_iteration": 600,
+      "value": 10.0
+    },
+    {
+      "through_iteration": 6000,
+      "value": 20.0
+    }
+  ],
+  "courant_ramp_control": "driver",
+  "close_clean": false,
+  "killed_pids": [
+    10708,
+    12992,
+    27072,
+    32964,
+    44356,
+    76576,
+    85164,
+    85640
+  ],
+  "chain_provenance": {
+    "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C4\\prod\\mesh.msh.h5",
+    "case": "C4",
+    "alpha": {
+      "mode": "target_cl",
+      "target_cl": 0.4895,
+      "alpha0_deg": 2.8867,
+      "first_slope_per_deg": 0.079
+    },
+    "solver": "cpu-db",
+    "precision": "double",
+    "np": 4,
+    "min_final_iterations": 900,
+    "first_slope": "0.079",
+    "courant_ramp": "100:2,300:5,600:10,6000:20",
+    "init_data": null,
+    "interp_from": null,
+    "seed_from": null,
+    "accel": "",
+    "ih": null,
+    "convergence_policy_version": "0f949ea8bdb892bb8527b085c39ae64687437721ec3ee23b7318cdd12f3f11a1"
+  }
+}

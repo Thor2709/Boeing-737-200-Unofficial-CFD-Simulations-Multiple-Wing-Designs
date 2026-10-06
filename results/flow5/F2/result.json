@@ -1,0 +1,1232 @@
+{
+  "case": "F2",
+  "condition": "cruise",
+  "target_cl": 0.4895,
+  "target_cl_status": "interpolated",
+  "target_cl_message": null,
+  "diagnostic_alpha_deg": null,
+  "cp_alpha_deg": 2.0,
+  "alpha_deg": 1.8746770025839792,
+  "CL": 0.4895,
+  "CDi": 0.008879801550387596,
+  "CDv": 0.006530224806201551,
+  "CD": 0.015409976744186047,
+  "Cm": -0.6412966925064599,
+  "lift_N": 513788.9350437419,
+  "lift_lbf": 115504.3478597689,
+  "drag_N": 16174.618060151539,
+  "drag_lbf": 3636.1988036188236,
+  "L_over_D": 31.765135543418715,
+  "span_efficiency_e": 0.9731974066647855,
+  "breguet_range_nmi": 6939.534720679038,
+  "coverage_violations": [
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10000000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10800000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10800000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10993000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": -6.5,
+      "alpha_to_deg": -5.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": 8.5,
+      "alpha_to_deg": 10.0,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 12400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 12400000.0,
+      "alpha_from_deg": 6.0,
+      "alpha_to_deg": 7.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13200000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13200000.0,
+      "alpha_from_deg": 9.5,
+      "alpha_to_deg": 10.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13285000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13285000.0,
+      "alpha_from_deg": 9.5,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 1.5,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 2.5,
+      "alpha_to_deg": 3.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 3.0,
+      "alpha_to_deg": 3.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 9.75,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 3.5,
+      "alpha_to_deg": 4.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 10.25,
+      "alpha_to_deg": 11.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 2.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2417000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2921000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.75,
+      "gap_deg": 2.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 23445000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 23445000.0,
+      "alpha_from_deg": 13.75,
+      "alpha_to_deg": 15.0,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 5.0,
+      "alpha_to_deg": 6.25,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 11.0,
+      "alpha_to_deg": 12.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 12.75,
+      "alpha_to_deg": 13.75,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 3530000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 2.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 5.25,
+      "alpha_to_deg": 6.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 10.75,
+      "alpha_to_deg": 13.0,
+      "gap_deg": 2.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 4265000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 5.0,
+      "alpha_to_deg": 7.75,
+      "gap_deg": 2.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 12.25,
+      "alpha_to_deg": 13.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 5155000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 5.75,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 4.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 4 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 10.25,
+      "alpha_to_deg": 11.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 12.75,
+      "alpha_to_deg": 13.5,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6000000.0,
+      "alpha_from_deg": -3.0,
+      "alpha_to_deg": -2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6229000.0,
+      "alpha_from_deg": -5.0,
+      "alpha_to_deg": -4.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6229000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6800000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7528000.0,
+      "alpha_from_deg": -3.0,
+      "alpha_to_deg": -2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7528000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7600000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7600000.0,
+      "alpha_from_deg": 5.25,
+      "alpha_to_deg": 6.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 8400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 8400000.0,
+      "alpha_from_deg": 1.5,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9097000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9200000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9200000.0,
+      "alpha_from_deg": 6.0,
+      "alpha_to_deg": 7.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    }
+  ],
+  "alpha_gap_diagnostics": [
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10000000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10800000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10800000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 10993000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": -6.5,
+      "alpha_to_deg": -5.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 11600000.0,
+      "alpha_from_deg": 8.5,
+      "alpha_to_deg": 10.0,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 12400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 12400000.0,
+      "alpha_from_deg": 6.0,
+      "alpha_to_deg": 7.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13200000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13200000.0,
+      "alpha_from_deg": 9.5,
+      "alpha_to_deg": 10.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13285000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 13285000.0,
+      "alpha_from_deg": 9.5,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 1.5,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 2.5,
+      "alpha_to_deg": 3.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 14000000.0,
+      "alpha_from_deg": 9.0,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 3.0,
+      "alpha_to_deg": 3.75,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 16053999.999999998,
+      "alpha_from_deg": 9.75,
+      "alpha_to_deg": 10.5,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 3.5,
+      "alpha_to_deg": 4.5,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 19400000.0,
+      "alpha_from_deg": 10.25,
+      "alpha_to_deg": 11.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 2.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2417000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 2921000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.75,
+      "gap_deg": 2.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 23445000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 23445000.0,
+      "alpha_from_deg": 13.75,
+      "alpha_to_deg": 15.0,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 5.0,
+      "alpha_to_deg": 6.25,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 11.0,
+      "alpha_to_deg": 12.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 28332000.0,
+      "alpha_from_deg": 12.75,
+      "alpha_to_deg": 13.75,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 3530000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 2.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 5.25,
+      "alpha_to_deg": 6.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 34238000.0,
+      "alpha_from_deg": 10.75,
+      "alpha_to_deg": 13.0,
+      "gap_deg": 2.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 4265000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 5.0,
+      "alpha_to_deg": 7.75,
+      "gap_deg": 2.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 2.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 41375000.0,
+      "alpha_from_deg": 12.25,
+      "alpha_to_deg": 13.25,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 5155000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 5.75,
+      "alpha_to_deg": 9.75,
+      "gap_deg": 4.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 4 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 10.25,
+      "alpha_to_deg": 11.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 50000000.0,
+      "alpha_from_deg": 12.75,
+      "alpha_to_deg": 13.5,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6000000.0,
+      "alpha_from_deg": -3.0,
+      "alpha_to_deg": -2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6000000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6229000.0,
+      "alpha_from_deg": -5.0,
+      "alpha_to_deg": -4.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6229000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 6800000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7528000.0,
+      "alpha_from_deg": -3.0,
+      "alpha_to_deg": -2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7528000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7600000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 7600000.0,
+      "alpha_from_deg": 5.25,
+      "alpha_to_deg": 6.0,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 8400000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 8400000.0,
+      "alpha_from_deg": 1.5,
+      "alpha_to_deg": 2.25,
+      "gap_deg": 0.75,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 0.75 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9097000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.5,
+      "gap_deg": 1.25,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.25 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9200000.0,
+      "alpha_from_deg": 0.25,
+      "alpha_to_deg": 1.75,
+      "gap_deg": 1.5,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1.5 deg exceeds 2.5 requested steps (0.625 deg)"
+    },
+    {
+      "kind": "alpha_gap",
+      "foil": "AOPT",
+      "re": 9200000.0,
+      "alpha_from_deg": 6.0,
+      "alpha_to_deg": 7.0,
+      "gap_deg": 1.0,
+      "requested_step_deg": 0.25,
+      "reason": "alpha gap 1 deg exceeds 2.5 requested steps (0.625 deg)"
+    }
+  ],
+  "reference": {
+    "S_m2": 91.04,
+    "b_m": 28.346,
+    "MAC_m": 3.471596629293166,
+    "AR": 8.825743804920913
+  }
+}

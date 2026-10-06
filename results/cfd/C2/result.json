@@ -1,0 +1,160 @@
+{
+  "case": "C2",
+  "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C2\\prod\\mesh.msh.h5",
+  "cells": null,
+  "np": 4,
+  "alpha_deg": 2.5216638586526394,
+  "CL": 0.4900552760392881,
+  "CD": 0.04361284176417868,
+  "CM": -0.1071002936200021,
+  "CD_ex_duct": 0.04331590194696737,
+  "components": {
+    "wing": {
+      "CL": 0.4280881874054389,
+      "CD": 0.02320321315391466,
+      "CM": -0.1227830050942997
+    },
+    "fuselage": {
+      "CL": 0.05717517896678295,
+      "CD": 0.01120906145227141,
+      "CM": 0.0490210183358202
+    },
+    "htail": {
+      "CL": 0.003058977744958087,
+      "CD": -0.0005407185523246185,
+      "CM": -0.01508918287732301
+    },
+    "vtail": {
+      "CL": 0.004389797599285853,
+      "CD": 0.002286030667068119,
+      "CM": -0.01561351096149736
+    },
+    "nacelle": {
+      "CL": -0.0008289037552648692,
+      "CD": 0.006601071999998397,
+      "CM": -0.002752615153628902
+    },
+    "duct": {
+      "CL": 0.001253433258804841,
+      "CD": 0.0002969398172113031,
+      "CM": 0.0006869395977625783
+    },
+    "fairing": {
+      "CL": -0.003081395180717679,
+      "CD": 0.0005572432260393993,
+      "CM": -0.000569937466835981
+    }
+  },
+  "lift_half_N": 257185.88190887927,
+  "drag_half_N": 22888.45303804759,
+  "lift_N": 514371.76381775853,
+  "drag_N": 45776.90607609518,
+  "lift_lbf": 115635.3725842042,
+  "drag_lbf": 10291.057873341673,
+  "L_over_D": 11.23649035963059,
+  "L_over_D_ex_duct": 11.284581892786957,
+  "iterations": 4700,
+  "wall_time_s": 16840.035,
+  "s_per_iter": 3.582986170212766,
+  "status": "converged",
+  "converged": true,
+  "convergence_numbers": {
+    "cl_error": 0.0005552760392881217,
+    "dcl_100": null,
+    "dcd_100": null,
+    "settle": {
+      "CL": {
+        "y_inf": 0.48984992241787334,
+        "remaining": 0.0002053536214147722,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CD": {
+        "y_inf": 0.0436171610036817,
+        "remaining": 4.319239503024208e-06,
+        "tau_iterations": null,
+        "settled": true
+      },
+      "CM": {
+        "y_inf": -0.10723458990987846,
+        "remaining": 0.00013429628987635112,
+        "tau_iterations": 242.51303904863747,
+        "settled": true
+      },
+      "settled": true,
+      "iterations": 1000
+    },
+    "slope_replacements": [],
+    "mass_imbalance": 0.009315109388779757,
+    "final_alpha_iterations": 1000
+  },
+  "ih_deg": 0.0,
+  "warm_start": null,
+  "solver": "cpu-db",
+  "precision": "double",
+  "solver_settings": "solver_settings.json",
+  "min_final_iterations": 900,
+  "final_iteration_rule": {
+    "window_iterations": 600,
+    "minimum_iterations": 900,
+    "tolerances": {
+      "CL": 0.0005,
+      "CD": 5e-05,
+      "CM": 0.001
+    }
+  },
+  "first_slope_cl_per_deg": 0.079,
+  "accel": [],
+  "courant_ramp": [
+    {
+      "through_iteration": 100,
+      "value": 2.0
+    },
+    {
+      "through_iteration": 300,
+      "value": 5.0
+    },
+    {
+      "through_iteration": 600,
+      "value": 10.0
+    },
+    {
+      "through_iteration": 6000,
+      "value": 20.0
+    }
+  ],
+  "courant_ramp_control": "driver",
+  "close_clean": false,
+  "killed_pids": [
+    20804,
+    32316,
+    51540,
+    56880,
+    71464,
+    73984,
+    80032,
+    83540
+  ],
+  "chain_provenance": {
+    "mesh": "C:\\Users\\thor2\\Documents\\openVSP_737-200 Build\\Ansys\\CCtest\\cfd_v2\\mesh\\C2\\prod\\mesh.msh.h5",
+    "case": "C2",
+    "alpha": {
+      "mode": "target_cl",
+      "target_cl": 0.4895,
+      "alpha0_deg": 1.6508,
+      "first_slope_per_deg": 0.079
+    },
+    "solver": "cpu-db",
+    "precision": "double",
+    "np": 4,
+    "min_final_iterations": 900,
+    "first_slope": "0.079",
+    "courant_ramp": "100:2,300:5,600:10,6000:20",
+    "init_data": null,
+    "interp_from": null,
+    "seed_from": null,
+    "accel": "",
+    "ih": null,
+    "convergence_policy_version": "3c1ecec9b372e749c4902ca10371f4cf31ad259366f57739f3aba46f12055367"
+  }
+}
