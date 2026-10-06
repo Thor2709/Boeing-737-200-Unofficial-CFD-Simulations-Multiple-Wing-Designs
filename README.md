@@ -9,7 +9,7 @@ The investigation benchmarks five wing configurations using flow5 3D panel metho
 Automated pipelines integrate OpenVSP parametric geometry, Fluent Meshing poly-hexcore generation under the 1M Student cell limit, and ParaView post-processing.
 
 > [!IMPORTANT]
-> **Project status and provenance.** This study was conceived, scoped and orchestrated by the repository owner, who defined the objectives and made the key engineering decisions. The majority of the execution was carried out by AI agents working under that direction: the pipeline code, the geometry and mesh generation, the simulation set-up and runs, the post-processing and this documentation.
+> **Project status and provenance.** This study was initiated, scoped and orchestrated by the repository owner, who defined the objectives and made the key engineering decisions. The majority of the execution was carried out by AI agents working under that direction: the pipeline code, the geometry and mesh generation, the simulation set-up and runs, the post-processing and this documentation.
 >
 > The results have been checked inside the workflow through automated tests, panel- and grid-convergence studies and solver cross-checks. **An independent validation by the owner has not yet been carried out.** Treat the numbers and conclusions as preliminary until this notice is removed.
 
@@ -122,3 +122,10 @@ pytest
 
 ## Licence
 MIT, see [LICENSE](LICENSE).
+
+## Project status and provenance
+
+> [!IMPORTANT]
+> **Project status and provenance.** This study was initiated, scoped and orchestrated by the repository owner, who defined the objectives and made the key engineering decisions. The majority of the execution was carried out by AI agents working under that direction: the pipeline code, the geometry and mesh generation, the simulation set-up and runs, the post-processing and this documentation.
+>
+> The results have been checked inside the workflow through automated tests, panel- and grid-convergence studies and solver cross-checks. **An independent validation by the owner has not yet been carried out.** Treat the numbers and conclusions as preliminary until this notice is removed.
