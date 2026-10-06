@@ -1,4 +1,5 @@
 numpy
+h5py
 scipy
 matplotlib
 pandas
