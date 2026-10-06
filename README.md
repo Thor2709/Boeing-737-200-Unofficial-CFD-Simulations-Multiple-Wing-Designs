@@ -8,6 +8,11 @@ An aerodynamic redesign and computational evaluation of the Boeing 737-200 wing 
 The investigation benchmarks five wing configurations using flow5 3D panel methods and Ansys Fluent half-aircraft RANS and scale-resolving SBES simulations.
 Automated pipelines integrate OpenVSP parametric geometry, Fluent Meshing poly-hexcore generation under the 1M Student cell limit, and ParaView post-processing.
 
+> [!IMPORTANT]
+> **Project status and provenance.** This study was conceived, scoped and orchestrated by the repository owner, who defined the objectives and made the key engineering decisions. The majority of the execution was carried out by AI agents working under that direction: the pipeline code, the geometry and mesh generation, the simulation set-up and runs, the post-processing and this documentation.
+>
+> The results have been checked inside the workflow through automated tests, panel- and grid-convergence studies and solver cross-checks. **An independent validation by the owner has not yet been carried out.** Treat the numbers and conclusions as preliminary until this notice is removed.
+
 ## Highlights
 - **Transonic Efficiency Gains**: Optimized aerofoil with linear twist (C4) achieved $L/D = 11.32$ and 2,473 nmi range, an 11% improvement (+244 nmi) over baseline C5 ($L/D = 10.19$, 2,229 nmi).
 - **High-Lift Flap Ceiling**: Configuration C3 demonstrated that a plain flap reaches $C_{L,\max} \approx 1.085$ at $\alpha = 9^\circ$, demonstrating why multi-element slotted flaps are required for the 1.675 take-off target.
